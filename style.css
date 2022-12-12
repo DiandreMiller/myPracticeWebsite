@@ -1,0 +1,141 @@
+h1{
+    font-family: cursive;
+    font-size: 60px;
+    color: rgb(229,5 ,5);
+    margin-bottom: -20px;
+    
+    
+}
+
+
+
+
+h1:hover{
+    color: rgb(0, 204, 255);
+}
+
+h2{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    
+    color: rgb(229,5 ,5);
+    margin-left: 1%;
+}
+
+h2:hover{
+    color: rgb(0, 204, 255);
+}
+
+
+
+h3{
+    color: rgb(229,5 ,5);
+    margin-top: -450px;
+   
+}
+
+h3:hover{
+color: rgb(0, 204, 255);
+}
+
+body{
+    background-color: black;
+    border: 10px solid rgb(0, 204, 255);
+}
+
+cite{
+    display: grid;
+    grid-template-columns: 40%;
+    color: rgb(229,5 ,5);
+    text-align: justify;
+}
+
+cite:hover{
+    color:rgb(0, 204, 255);
+}
+
+.one:hover,.two:hover,.three:hover,.four:hover,.five:hover{
+    border: 2px solid rgb(0, 204, 255);
+}
+
+
+
+ul{
+    color: rgb(229,5 ,5);
+    list-style: none;
+    text-indent: -4.0em;
+  margin-left: 0;
+}
+
+.home, .about, .tour, .music, .community, .booking, .donate, .shop{
+    display: grid;
+    grid-template-columns: repeat(3, 20%);
+    /* justify-content: left; */
+    display: inline; 
+   padding: 10px;
+   margin: 2%;
+   font-size: 30px;
+}
+
+.home:hover, .about:hover, .music:hover, .tour:hover, .community:hover, .booking:hover, .donate:hover, .shop:hover{
+    color:rgb(0, 204, 255);
+}
+
+button{
+    margin-left: 0.5%;
+    margin-top: 5%;
+    padding: 10px;
+    color: rgb(0, 204, 255);
+    background-color: white;
+}
+
+button:hover{
+    color: rgb(0, 204, 255);
+    background-color: black;
+}
+
+.nana{
+    margin-left: 5%;
+    filter: drop-shadow(0 0 0.75rem red);
+    position: absolute;
+}
+
+.baby{
+    filter: drop-shadow(0 0 0.75rem red);
+}
+.click-here img:hover{
+    opacity: 0.3;
+    display: inline-block;
+    
+
+}
+
+
+
+.overlay{
+    position: relative;
+    overflow: hidden;
+    bottom: 485px;
+    left: 700px;
+    z-index: -1;
+}
+
+
+
+.nana:hover{
+
+    opacity: 0;
+    transition: opacity 2s;
+    
+}
+
+.overlay li{
+    color: rgb(0, 204, 255);
+    font-size: 20px;
+    list-style:upper-roman;
+    
+}
+
+
+
+
+  
